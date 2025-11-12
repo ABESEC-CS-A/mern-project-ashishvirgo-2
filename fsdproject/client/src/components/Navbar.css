@@ -1,0 +1,11 @@
+.navbar{
+    background-color: maroon;
+    color:whitesmoke;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+}

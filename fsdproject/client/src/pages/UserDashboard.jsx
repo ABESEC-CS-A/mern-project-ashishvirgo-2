@@ -1,18 +1,18 @@
 import React from 'react'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import UserNavbar from '../components/UserNavbar'
 import { Outlet } from 'react-router-dom'
+import Footer from '../components/Footer'
 
-const Home = () => {
+const UserDashboard = () => {
   return (
     <div>
       <Header/>
-      <Navbar/>
+      <UserNavbar/>
       <Outlet/>
       <Footer/>
     </div>
   )
 }
 
-export default Home
+export default UserDashboard
